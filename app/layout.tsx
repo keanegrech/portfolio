@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Keane Grech",
-  description: "Coming soon",
+  description: "A software student from Malta.",
 };
 
 export default function RootLayout({
@@ -17,10 +17,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="theme-color"
+          content="#e7e7e7"
+          media="(prefers-color-scheme: light)"
+        />
+        <meta
+          name="theme-color"
+          content="#101010"
+          media="(prefers-color-scheme: dark)"
+        />
+
+        <meta property="og:image" content="/preview.jpg" />
+      </head>
       <body className={inter.className}>
-        {children} 
         <Analytics />
-      </body>
+        {children}
+        </body>
     </html>
   );
 }
