@@ -44,7 +44,7 @@ const navigation = [
 
 export default function Dock() {
   const pathname = usePathname();
-  const [hoverIndex, setHoverIndex] = React.useState(null);
+  const [hoverIndex, setHoverIndex] = React.useState<number | null>(null);
 
   return (
     <div className="md:p-[12px] bg-transparent md:bg-[#f8f8f8]/70 md:dark:bg-[#212121]/50 md:backdrop-blur-xl sm:drop-shadow-xl md:border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[24px]">
