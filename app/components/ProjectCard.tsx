@@ -28,7 +28,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
       <div
-        className={`project-card p-[12px] bg-[#f8f8f8]/70 drop-shadow-lg transition-all dark:bg-[#212121]/50 backdrop-blur-xl sm:drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[32px] transition-height duration-500 ease-in-out`}
+        className={`project-card p-[12px] bg-[#f3f3f3] transition-all dark:bg-[#191919] drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[32px] transition-height duration-500 ease-in-out`}
       >
         <div className="flex flex-col gap-3">
           <Image

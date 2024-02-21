@@ -32,7 +32,7 @@ export default function About() {
         <div className="grid min-h-screen place-items-center px-3 animate-fade-in-down dark:text-white text-black ">
           <div className="flex flex-col gap-5 md:mt-0 mt-[100px] md:mb-0 mb-10">
             <div className="flex md:flex-row flex-col gap-5">
-              <div className=" p-[24px] bg-[#f8f8f8]/70 drop-shadow-lg transition-all dark:bg-[#212121]/50 backdrop-blur-xl sm:drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
+              <div className=" p-[24px] bg-[#f3f3f3] drop-shadow-lg transition-all dark:bg-[#191919] border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
                 <div className="flex flex-col gap-5 justify-center">
                   <Image
                     src="/about.jpg"
@@ -66,7 +66,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex flex-col gap-5 w-full">
-                <div className=" p-[24px] bg-[#f8f8f8]/70 flex flex-col gap-2 drop-shadow-lg transition-all dark:bg-[#212121]/50 backdrop-blur-xl sm:drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
+                <div className=" p-[24px] bg-[#f3f3f3] flex flex-col gap-2 drop-shadow-lg transition-all dark:bg-[#191919] border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
                   <div className="font-bold text-xl">Education</div>
                   <div className="dark:bg-[#262626] bg-[#e0e0e0] w-full rounded-[15px] p-3">
                     <div className="flex flex-col gap-2">
@@ -95,7 +95,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <div className="p-[24px] bg-[#f8f8f8]/70 flex flex-col gap-2 drop-shadow-lg transition-all dark:bg-[#212121]/50 backdrop-blur-xl sm:drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
+                <div className="p-[24px] bg-[#f3f3f3] flex flex-col gap-2 drop-shadow-lg transition-all dark:bg-[#191919] border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
                   <div className="font-bold text-xl">Qualifications</div>
                   <div className="dark:bg-[#262626] bg-[#e0e0e0] w-full rounded-[15px] p-3">
                     <div className="flex flex-col">
@@ -110,7 +110,7 @@ export default function About() {
             </div>
 
             <div className="flex md:flex-row flex-col gap-5">
-              <div className="p-[24px] bg-[#f8f8f8]/70 drop-shadow-lg transition-all dark:bg-[#212121]/50 backdrop-blur-xl sm:drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
+              <div className="p-[24px] bg-[#f3f3f3] drop-shadow-lg transition-all dark:bg-[#191919] border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
                 <div className="text-xl font-bold">About Me</div>
                 <div className="opacity-50 md:w-96 w-84 text-justify">
                   I&apos;m a student studying software development at
@@ -120,7 +120,7 @@ export default function About() {
                   gaming and I love to play games in my free time.
                 </div>
               </div>
-              <div className="p-[24px] bg-[#f8f8f8]/70 drop-shadow-lg transition-all dark:bg-[#212121]/50 backdrop-blur-xl sm:drop-shadow-xl border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
+              <div className="p-[24px] bg-[#f3f3f3] drop-shadow-lg transition-all dark:bg-[#191919] border dark:border-[#ffffff1a] border-[#fefdfe] rounded-[39px] transition-height duration-500 ease-in-out">
                 <div className="flex h-full flex-col gap-5 justify-center">
                   <div className="flex gap-5 justify-center">
                     <div className="dark:bg-[#262626] self-center bg-[#e0e0e0] p-5 rounded-[15px]">
