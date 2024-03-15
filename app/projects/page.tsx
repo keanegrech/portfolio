@@ -6,13 +6,12 @@ import ProjectCard from "../components/ProjectCard";
 const projects = [
   {
     title: "EdVantage",
-    icon: "/productImages/edvantagelogo.png",
     description: "Concept landing page of a school managment app.",
     tag: "NextJS",
     tag2: "TailwindCSS",
     github: "https://github.com/keanegrech/edvantage-website",
     website: "https://edvantage-website.vercel.app/",
-    image: "/productImages/edvantage.png",
+    image: "/productImages/edvantage.jpg",
     onWebsite: true,
   }
 ];
