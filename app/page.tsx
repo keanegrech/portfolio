@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function Home() {
   return (
     <main className="dark:bg-black bg-white w-screen h-screen overflow-y-hidden">
-      <div className="bg-[url('/background.png')] bg-center bg-cover absolute w-screen h-screen dark:opacity-45" />
+      <div className="bg-[url('/background.webp')] bg-center bg-cover absolute w-screen h-screen dark:opacity-45" />
       <div className="relative">
         <div className="p-3 absolute w-full">
           <div className="flex justify-between h-full gap-3">
