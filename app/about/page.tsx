@@ -91,7 +91,7 @@ export default function About() {
                               <div className="self-center">
                                 <TbCake size={15} />
                               </div>
-                              17 YRS
+                              18 YRS
                             </div>
                             <div className="dark:bg-[#262626] bg-[#e0e0e0] px-3 py-2 rounded-[15px] text-[12px] flex gap-2">
                               <div className="self-center">
@@ -104,25 +104,7 @@ export default function About() {
                       </div>
                       <div className="dark:bg-[#262626] bg-[#e0e0e0] w-full rounded-[15px] p-3">
                         <div className="flex flex-col">
-                          <div className="font-bold">
-                            <div className="flex gap-2">
-                              <div className="self-center">
-                                Accepting Projects
-                              </div>
-                              <div className="self-center">
-                                <div className="bg-green-500 w-[10px] h-[10px] rounded-full animate-ping absolute"></div>
-                                <div className="bg-green-500 w-[10px] h-[10px] rounded-full"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="dark:bg-[#262626] bg-[#e0e0e0] w-full rounded-[15px] p-3">
-                        <div className="flex flex-col">
-                          <div className="font-bold">Currently working</div>
-                          <div className="opacity-50">
-                            IT Support at OCVO Malta
-                          </div>
+                          <div className="font-bold">Currently studying</div>
                         </div>
                       </div>
                     </div>
@@ -167,7 +149,7 @@ export default function About() {
                             Development
                           </div>
                           <div className="font-light text-sm opacity-50">
-                            degree / starting soon
+                            degree / 2024 - ongoing
                           </div>
                           <Link
                             href="https://mcast.edu.mt/courses/it6-a2-21/"

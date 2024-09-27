@@ -11,8 +11,18 @@ const projects = [
     tag2: "TailwindCSS",
     github: "https://github.com/keanegrech/edvantage-website",
     website: "https://edvantage-website.vercel.app/",
-    image: "/productImages/edvantage.jpg",
+    image: "/productImages/edvantage.webp",
     onWebsite: true,
+  },
+  {
+    title: "YouTube Sentiment Analyzer",
+    description: "A YouTube comments sentiment checker built with Python.",
+    tag: "Python",
+    tag2: "NLP",
+    github: "https://github.com/keanegrech/youtube-sentiment-analyzer",
+    website: "",
+    image: "/productImages/ysa.webp",
+    onWebsite: false,
   }
 ];
 
