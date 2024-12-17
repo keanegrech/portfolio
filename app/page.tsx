@@ -34,8 +34,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-10">
                 <div className="dark:opacity-50 opacity-70 sm:w-[55%] text-justify">
-                  I am currently a student at MCAST Paola, studying an Advanced
-                  Diploma in Software Development, with deep knowledge in
+                  I am currently a student at MCAST Paola, studying a degree in Software Development, with deep knowledge in
                   various technologies.
                 </div>
               </div>
